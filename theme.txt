@@ -1,0 +1,17 @@
+ThemeData themeDark = ThemeData(
+  primaryColor: Color(0xff25324B),
+  accentColor: Color(0xff2BA1BB),
+  cardColor: Color(0xff435c89),
+  brightness: Brightness.dark,
+  scaffoldBackgroundColor: Color(0xff324567),
+  canvasColor: Color(0xff324567),
+
+  // brightness: Brightness.dark,
+);
+final ThemeData themeLight = ThemeData(
+  primaryColor: Color(0xff2FA561),
+  accentColor: Color(0xff33cc33),
+  cardColor: Color(0xffffffff),
+  brightness: Brightness.light,
+  scaffoldBackgroundColor: Colors.white,
+);
