@@ -5,6 +5,7 @@ ThemeData themeDark = ThemeData(
   brightness: Brightness.dark,
   scaffoldBackgroundColor: Color(0xff324567),
   canvasColor: Color(0xff324567),
+  anyColor: Color(0xff324567),
 
   // brightness: Brightness.dark,
 );
@@ -14,4 +15,11 @@ final ThemeData themeLight = ThemeData(
   cardColor: Color(0xffffffff),
   brightness: Brightness.light,
   scaffoldBackgroundColor: Colors.white,
+  anyColor: Color(0xffffffff),
 );
+
+....
+Icon(Icons.home, color: Theme.of(context).cardColor);
+Text("Hello", color: color: Theme.of(context).cardColor);
+Widget(color: Theme.of(context).anyColor);
+....
